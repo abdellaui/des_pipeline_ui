@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="Bild">
+    <file>img/btnbg.png</file>
+    <file>img/bottom.png</file>
+    <file>img/middle.png</file>
+	<file>img/middle_last.png</file>
+    <file>img/top.png</file>
+	<file>img/inside_f.png</file>
+	<file>img/transformation.png</file>
+  </qresource>
+</RCC>

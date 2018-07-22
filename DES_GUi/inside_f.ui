@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>858</width>
+    <height>954</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="inside_f" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>530</width>
+     <height>931</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>530</width>
+     <height>0</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="f_ansicht" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>530</width>
+        <height>740</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>530</width>
+        <height>738</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/Bild/img/inside_f.png);</string>
+      </property>
+      <widget class="QPushButton" name="R_i_minus_1_button">
+       <property name="geometry">
+        <rect>
+         <x>205</x>
+         <y>0</y>
+         <width>118</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>R #</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="expansion_button">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>100</y>
+         <width>141</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>Expansion E(R#)</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="xor_button">
+       <property name="geometry">
+        <rect>
+         <x>244</x>
+         <y>269</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>XOR</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="k_i_button">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>269</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>k #</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="s_button_1">
+       <property name="geometry">
+        <rect>
+         <x>12</x>
+         <y>435</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>S 1</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="s_button_2">
+       <property name="geometry">
+        <rect>
+         <x>78</x>
+         <y>435</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>S 2</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="s_button_3">
+       <property name="geometry">
+        <rect>
+         <x>145</x>
+         <y>435</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>S 3</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="s_button_4">
+       <property name="geometry">
+        <rect>
+         <x>211</x>
+         <y>435</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>S 4</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="s_button_5">
+       <property name="geometry">
+        <rect>
+         <x>278</x>
+         <y>435</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>S 5</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="s_button_6">
+       <property name="geometry">
+        <rect>
+         <x>345</x>
+         <y>435</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>S 6</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="s_button_7">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>435</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>S 7</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="s_button_8">
+       <property name="geometry">
+        <rect>
+         <x>477</x>
+         <y>435</y>
+         <width>35</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>S 8</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="expansion_button_2">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>600</y>
+         <width>141</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>Permutation P</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="information_f_groupbox">
+      <property name="title">
+       <string>Information -&gt; f #</string>
+      </property>
+      <zorder>f_ansicht</zorder>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Bilder.qrc"/>
+ </resources>
+ <connections/>
+</ui>

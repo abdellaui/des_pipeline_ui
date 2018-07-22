@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>771</width>
+    <height>576</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="transfo_mit_info" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>551</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>509</width>
+     <height>0</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="transformations_ansicht" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>530</width>
+        <height>276</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>530</width>
+        <height>276</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-image: url(:/Bild/img/transformation.png);</string>
+      </property>
+      <widget class="QPushButton" name="c_button">
+       <property name="geometry">
+        <rect>
+         <x>216</x>
+         <y>0</y>
+         <width>118</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>C #</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="d_button">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>0</y>
+         <width>118</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>D #</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ls_links_button">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>100</y>
+         <width>51</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>LS #</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="ls_rechts_button">
+       <property name="geometry">
+        <rect>
+         <x>337</x>
+         <y>100</y>
+         <width>51</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>LS #</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="c1_button">
+       <property name="geometry">
+        <rect>
+         <x>216</x>
+         <y>196</y>
+         <width>118</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>C #</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="d1_button">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>196</y>
+         <width>118</width>
+         <height>35</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>D #</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pc_2_button">
+       <property name="geometry">
+        <rect>
+         <x>66</x>
+         <y>201</y>
+         <width>79</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/Bild/img/btnbg.png);background-color:#000000</string>
+       </property>
+       <property name="text">
+        <string>PC-2</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="transformationsname">
+       <property name="geometry">
+        <rect>
+         <x>54</x>
+         <y>50</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Transformation #</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="information_trans_groupbox">
+      <property name="title">
+       <string>Information -&gt; Transformation #</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Bilder.qrc"/>
+ </resources>
+ <connections/>
+</ui>
